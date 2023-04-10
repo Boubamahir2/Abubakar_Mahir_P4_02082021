@@ -14,8 +14,8 @@ Accueil mobile :
 - SEO: 78
 
 Accueil ordinateur :
-- Performance: 67
-- Accessibilité: 80
+- Performance: 45
+- Accessibilité: 83
 - Meilleures pratiques: 100
 - SEO: 90
 
