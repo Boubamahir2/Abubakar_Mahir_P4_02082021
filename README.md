@@ -1,7 +1,7 @@
 # Abubakar_Mahir_P4_02092021
 Testé avec un hébergement Github pages sans modifications du code source originel.
 ### lien vers le page non modifier :https://boubamahir2.github.io/Abubakar_Mahir_P4_starter/
-### lien vers le page final : https://boubamahir2.github.io/Abubakar_Mahir_P4_02092021/
+### lien vers le page final : https://boubamahir2.github.io/Abubakar_Mahir_P4_02082021/
 # Résultats initiaux
 
 

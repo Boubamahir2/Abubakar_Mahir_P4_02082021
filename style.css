@@ -554,7 +554,7 @@ button {
 
 /* modif */
 .explain {
-  font-size: 22px;
+  font-size: 20px;
   margin: auto;
   width: 65%;
 }
@@ -832,10 +832,15 @@ p {
 }
 
 .social {
-  max-width: 400px;
+  max-width: 600px;
   margin: auto auto auto auto;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.social a{
+  color: #fff !important;
+  font-size: 16px;
 }
 
 h2 {
@@ -918,6 +923,11 @@ h3 {
   color: #ffffff !important;
 }
 
+#main h1 {
+  color: #ffffff !important;
+
+}
+
 /* header contact */
 .bgc-atomic-tangerine--color {
   background-color: var(--color-blog)
@@ -926,7 +936,7 @@ h3 {
 /* contact btn */
 .btn-atomic-tangerine {
   background: var(--color-btn);
-  color: #FFFFFF !important;
+  color: #000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -991,21 +1001,21 @@ h3 {
 
 
 /* partners */
-.partners h4 {
+.partners h3 {
   color: #fff !important;
-  font-size: 23px;
+  font-size: 20px;
   position: relative;
-
+ padding-bottom: 10px;
 
 }
 
-.partners h4::before {
+.partners h3::before {
   content: "";
   position: absolute;
   background-color: var(--color-btn);
   width: 30%;
   height: 3px;
-  bottom: -5px;
+  bottom: -0px;
   left: 0;
 }
 
