@@ -1,30 +1,14 @@
 :root {
   --gradient-text: linear-gradient(89.97deg, #fc67fa 1.84%, #FF4820 92.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #FF4820 99.55%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #D12600 99.55%);
 
   --color-bg: #040C18;
   --color-footer: #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
-  --color-btn: #FF4820;
+  --color-btn: #D12600;
 }
-
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
-}
-
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
-}
-
 
 body {
   margin: 0;
@@ -575,11 +559,12 @@ button {
   border-radius: 40px;
 }
 
+
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, .08);
   border-bottom-color: rgba(0, 0, 0, .1);
   text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-  box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+  box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
 .icon-md {
@@ -633,6 +618,7 @@ button {
 
 .scrollToTop:focus {
   outline: none !important;
+  border: 1.5px solid #fff !important;
 }
 
 .scrollToTop span {
@@ -838,7 +824,7 @@ p {
   padding-bottom: 20px;
 }
 
-.social a{
+.social a {
   color: #fff !important;
   font-size: 16px;
 }
@@ -899,14 +885,14 @@ h3 {
 .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
-}
+}.bgc-dark-slate-blue 
 
 .bgc-white {
   background-color: #FFFFFF;
 }
 
 .bgc-dark-slate-blue {
-  background-color: #367753;
+  background-color: var(--color-blog);
 }
 
 /* footer */
@@ -933,10 +919,14 @@ h3 {
   background-color: var(--color-blog)
 }
 
+.container h1 {
+  color: var(--color-btn) !important;
+}
+
 /* contact btn */
 .btn-atomic-tangerine {
   background: var(--color-btn);
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1005,7 +995,7 @@ h3 {
   color: #fff !important;
   font-size: 20px;
   position: relative;
- padding-bottom: 10px;
+  padding-bottom: 10px;
 
 }
 
@@ -1021,8 +1011,7 @@ h3 {
 
 
 .partners {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+margin :0 5%;
 }
 
 .partners ul {
@@ -1063,8 +1052,13 @@ h3 {
 
 #form_1 input:focus,
 #form_1 textarea:focus {
-  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.01), 0px 0px 3px 3px rgba(130, 100, 106, 0.6);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(102, 175, 233, 0.6);
+  border: gray dashed 1px !important;
 }
+
+/* *:focus {
+  border: gray dashed 1px !important;
+} */
 
 
 
@@ -1287,6 +1281,8 @@ h3 {
   .close-lightbox {
     display: inline-block;
   }
+
+   
 
   .blocsapp-device-iphone5 {
     background-size: 216px 425px;
