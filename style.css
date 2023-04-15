@@ -1,5 +1,6 @@
 :root {
   --gradient-text: linear-gradient(89.97deg, #fc67fa 1.84%, #FF4820 92.67%);
+  --gradient-text2: linear-gradient(89.97deg, #fc67fa 1.84%, #D12600 92.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #D12600 99.55%);
 
   --color-bg: #040C18;
@@ -8,6 +9,13 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --color-btn: #d12600;
+}
+
+.gradient__text {
+  background: var(--gradient-text2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 body {
@@ -155,7 +163,10 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: var(--color-btn);
+  background: var(--gradient-text2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* color to be modidfied */
@@ -830,6 +841,9 @@ p {
   color: #fff !important;
   align-items: baseline;
   font-size: 16px;
+}
+.social a:hover{
+  color: var(--color-btn) !important;
 }
 
 
