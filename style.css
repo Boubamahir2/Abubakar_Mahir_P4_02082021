@@ -335,6 +335,7 @@ a:hover {
   padding-left: 0;
 }
 
+/* header h1 */
 #bloc-1-hero h1 {
   font-size: 40px;
 }
@@ -347,7 +348,7 @@ a:hover {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
   font-weight: 600;
   line-height: 44px;
@@ -547,7 +548,7 @@ button {
   display: block;
   margin: auto;
   quotes: none;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   width: 85%;
   color: #313030;
@@ -569,6 +570,7 @@ button {
 
 .icon-md {
   font-size: 30px !important;
+  width: 50px;
 }
 
 .icon-lg {
@@ -775,11 +777,11 @@ a {
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 35px;
 }
 
 .hero-bloc-text-sub {
-  font-size: 36px;
+  font-size: 33px;
 }
 
 .statement-bloc-text {
@@ -817,6 +819,7 @@ p {
   font-weight: 700;
 }
 
+
 .social {
   max-width: 600px;
   margin: auto auto auto auto;
@@ -826,11 +829,13 @@ p {
 
 .social a {
   color: #fff !important;
+  align-items: baseline;
   font-size: 16px;
 }
 
+
 h2 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1.4em;
 }
 
@@ -993,9 +998,10 @@ h3 {
 /* partners */
 .partners h3 {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 17px !important;
   position: relative;
   padding-bottom: 10px;
+  padding-left: 0 !important;
 
 }
 
@@ -1010,9 +1016,6 @@ h3 {
 }
 
 
-.partners {
-margin :0 5%;
-}
 
 .partners ul {
   word-wrap: break-word;
@@ -1027,7 +1030,7 @@ margin :0 5%;
 
 .partners ul li {
   list-style: none !important;
-  font-size: 18px;
+  font-size: 16px;
   padding: 6px 0;
 }
 
@@ -1132,6 +1135,10 @@ margin :0 5%;
     overflow-x: hidden;
     position: relative;
   }
+  
+    #bloc-1-hero h1 {
+      font-size: 30px;
+    }
 
   h1,
   h2,
@@ -1201,6 +1208,10 @@ margin :0 5%;
     padding: 50px 0;
   }
 
+    .col-sm-4{
+      margin-bottom:25px
+    }
+  
   .hero-nav {
     left: -1px;
     right: -1px;
@@ -1274,8 +1285,53 @@ margin :0 5%;
     margin-top: 30px;
   }
 
+.partners ,.social{
+  max-width: 600px;
+  padding-left: 10px;
+  margin: auto auto auto auto !important;
+}
+
+.social a{
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+
+.container h1{
+  font-size:25px
+}
+.container h2{
+  font-size:25px;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0 5px;
+}
+
+.mg-md{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.explain{
+  font-size:  16px;
+  width: 80%;
+}
+
+p,.quote{
+  font-size:16px;
+}
+
+
   form {
-    padding: 5px;
+    padding: 5px 10px;
   }
 
   .close-lightbox {
