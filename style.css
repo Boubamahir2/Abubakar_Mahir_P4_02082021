@@ -11,12 +11,6 @@
   --color-btn: #d12600;
 }
 
-.gradient__text {
-  background: var(--gradient-text2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 body {
   margin: 0;
@@ -163,10 +157,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  background: var(--gradient-text2);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+color: var(--color-btn);
 }
 
 /* color to be modidfied */
