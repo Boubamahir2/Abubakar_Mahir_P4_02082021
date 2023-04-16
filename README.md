@@ -79,11 +79,6 @@ Contact
 - Alerts 
 
 
-# Validation W3C
-
-
-# Points d'améliorations
-
 ## Performance
 
 - Optimiser les images (poids et format)
@@ -114,13 +109,6 @@ Contact
 - Zones de touche (doigt) trop petites
 - Balise <title> incomplète c'est juste un "."
 
-
-
-## Errors in console before
-- BootstrapValidation.js:912 Uncaught ReferenceError: jQuery is not defined
-    at jqBootstrapValidation.js:912:5
-- Uncaught ReferenceError: $ is not defined
-    at formHandler.js:1:1
 
 ##    outils
 - LightHouse
