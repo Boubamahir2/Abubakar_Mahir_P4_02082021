@@ -545,16 +545,15 @@ button {
 .explain {
   font-size: 20px;
   margin: auto;
-  width: 65%;
 }
 
 .quote {
   display: block;
   margin: auto;
   quotes: none;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
-  width: 85%;
+  width: 95%;
   color: #313030;
 }
 
@@ -776,9 +775,7 @@ a {
   color: #303130 !important;
 }
 
-.container {
-  max-width: 1000px;
-}
+
 
 .hero-bloc-text {
   font-size: 35px;
@@ -847,13 +844,13 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .med-width-whitespace {
-  max-width: 800px;
+  max-width: 1050px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
 }
@@ -890,7 +887,7 @@ h3 {
 
 /* Notre objectif background*/
 .black-background {
-  background-color: var(--color-footer);
+  background-color: var(--color-blog);
   padding: 40px 40px 40px 40px;
 }
 
@@ -1069,6 +1066,12 @@ h3 {
   border: gray dashed 1px !important;
 } */
 
+.container h2 {
+  font-size: 25px
+}
+.container p {
+  font-size: 15px
+}
 
 
 @media (max-width: 1024px) {
@@ -1111,7 +1114,16 @@ h3 {
 @media (max-width: 991px) {
   .container {
     width: 100%;
+
   }
+
+    .black-background {
+      padding: 10px 0;
+    }
+
+    .explain {
+      width: 100%;
+    }
 
   .b-parallax {
     background-attachment: scroll;
@@ -1308,7 +1320,7 @@ h3 {
   font-size:25px
 }
 .container h2{
-  font-size:25px;
+  font-size:20px !important;
 }
 
 h2 {
