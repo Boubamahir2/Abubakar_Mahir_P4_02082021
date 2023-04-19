@@ -16,10 +16,13 @@ body {
   margin: 0;
   padding: 0;
   background: #FFF;
+  height: 100vh !important;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 a,
 button {
