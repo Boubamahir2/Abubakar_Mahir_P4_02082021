@@ -930,7 +930,7 @@ h3 {
   background-color: var(--color-blog)
 }
 
-.container h1 {
+.container h1, .header {
   color: var(--color-btn) !important;
 }
 
