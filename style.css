@@ -996,7 +996,8 @@ h3 {
 /* page icon */
 /* image resize */
 .image-resize-mode {
-  width: 8.15em;
+  width: 130px;
+  height: 130px;
 }
 
 
@@ -1246,7 +1247,8 @@ h3 {
 
   .navbar-brand img {
     max-height: 40px;
-    width: auto;
+    height: 36px;
+    width: 193px ;
   }
 
   .nav-invert .navbar-header {
