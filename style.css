@@ -160,7 +160,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-color: var(--color-btn);
+  color: var(--color-btn);
 }
 
 /* color to be modidfied */
@@ -835,7 +835,8 @@ p {
   align-items: baseline;
   font-size: 16px;
 }
-.social a:hover{
+
+.social a:hover {
   color: var(--color-btn) !important;
 }
 
@@ -896,9 +897,9 @@ h3 {
 .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
-}.bgc-dark-slate-blue 
+}
 
-.bgc-white {
+.bgc-dark-slate-blue .bgc-white {
   background-color: #FFFFFF;
 }
 
@@ -930,7 +931,8 @@ h3 {
   background-color: var(--color-blog)
 }
 
-.container h1, .header {
+.container h1,
+.header {
   color: var(--color-btn) !important;
 }
 
@@ -956,7 +958,7 @@ h3 {
   font-size: 1.5rem;
   padding: 2rem;
   margin-top: 3rem;
- 
+
 }
 
 .ltc-white:hover {
@@ -1072,6 +1074,7 @@ h3 {
 .container h2 {
   font-size: 25px
 }
+
 .container p {
   font-size: 15px
 }
@@ -1120,13 +1123,13 @@ h3 {
 
   }
 
-    .black-background {
-      padding: 10px 0;
-    }
+  .black-background {
+    padding: 10px 0;
+  }
 
-    .explain {
-      width: 100%;
-    }
+  .explain {
+    width: 100%;
+  }
 
   .b-parallax {
     background-attachment: scroll;
@@ -1156,10 +1159,10 @@ h3 {
     overflow-x: hidden;
     position: relative;
   }
-  
-    #bloc-1-hero h1 {
-      font-size: 30px;
-    }
+
+  #bloc-1-hero h1 {
+    font-size: 30px;
+  }
 
   h1,
   h2,
@@ -1229,10 +1232,10 @@ h3 {
     padding: 50px 0;
   }
 
-    .col-sm-4{
-      margin-bottom:25px
-    }
-  
+  .col-sm-4 {
+    margin-bottom: 25px
+  }
+
   .hero-nav {
     left: -1px;
     right: -1px;
@@ -1248,7 +1251,7 @@ h3 {
   .navbar-brand img {
     max-height: 40px;
     height: 36px;
-    width: 193px ;
+    width: 193px;
   }
 
   .nav-invert .navbar-header {
@@ -1307,49 +1310,52 @@ h3 {
     margin-top: 30px;
   }
 
-.partners ,.social{
-  max-width: 600px;
-  padding-left: 10px;
-  margin: auto auto auto auto !important;
-}
+  .partners,
+  .social {
+    max-width: 600px;
+    padding-left: 10px;
+    margin: auto auto auto auto !important;
+  }
 
-.social a{
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-}
+  .social a {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
 
 
-.container h1{
-  font-size:25px
-}
-.container h2{
-  font-size:20px !important;
-}
+  .container h1 {
+    font-size: 25px
+  }
 
-h2 {
-  font-size: 23px;
-  line-height: 1.4em;
-}
+  .container h2 {
+    font-size: 20px !important;
+  }
 
-h3 {
-  font-size: 16px;
-  margin: 5px 0 5px;
-}
+  h2 {
+    font-size: 23px;
+    line-height: 1.4em;
+  }
 
-.mg-md{
-  margin-top:10px;
-  margin-bottom:10px;
-}
+  h3 {
+    font-size: 16px;
+    margin: 5px 0 5px;
+  }
 
-.explain{
-  font-size:  16px;
-  width: 80%;
-}
+  .mg-md {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-p,.quote{
-  font-size:16px;
-}
+  .explain {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  p,
+  .quote {
+    font-size: 16px;
+  }
 
 
   form {
@@ -1360,7 +1366,7 @@ p,.quote{
     display: inline-block;
   }
 
-   
+
 
   .blocsapp-device-iphone5 {
     background-size: 216px 425px;
@@ -1379,6 +1385,16 @@ p,.quote{
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+    width: 150px;
+  }
+
+  .image-resize-mode {
+    width: 100px;
+    height: 100px;
   }
 }
 
