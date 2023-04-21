@@ -115,5 +115,6 @@ Contact
 - wave
 - web dev
 - webAIM (color contrast)
+- compress2go.
 
 Un fichier robots.txt vous permet de contrôler les fichiers auxquels les robots d'exploration peuvent accéder sur votre site.

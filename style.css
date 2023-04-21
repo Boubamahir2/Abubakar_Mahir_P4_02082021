@@ -2,15 +2,13 @@
   --gradient-text: linear-gradient(89.97deg, #fc67fa 1.84%, #FF4820 92.67%);
   --gradient-text2: linear-gradient(89.97deg, #fc67fa 1.84%, #D12600 92.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #D12600 99.55%);
-
   --color-bg: #040C18;
   --color-footer: #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
-  --color-btn: #d12600;
+  --color-btn: #d12600
 }
-
 
 body {
   margin: 0;
@@ -19,20 +17,18 @@ body {
   height: 100vh !important;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale
 }
-
-
 
 a,
 button {
   transition: all .3s ease-in-out;
-  outline: none !important;
+  outline: none !important
 }
 
 a:hover {
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .focusedInputBlack:focus {
@@ -40,9 +36,8 @@ a:hover {
   outline: 0;
   border-radius: 10px;
   -moz-box-shadow: 0 0 8px #313030;
-  box-shadow: 0 0 6px #313030 !important;
+  box-shadow: 0 0 6px #313030 !important
 }
-
 
 #page-loading-blocs-notifaction {
   position: fixed;
@@ -50,7 +45,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+  background: #FFF url(img/pageload-spinner.gif) no-repeat center center
 }
 
 .bloc {
@@ -62,24 +57,24 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
+  position: relative
 }
 
 .bloc .container {
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 0
 }
 
 .bloc-lg {
-  padding: 100px 50px;
+  padding: 100px 50px
 }
 
 .bloc-md {
-  padding: 50px;
+  padding: 50px
 }
 
 .bloc-sm {
-  padding: 20px 50px;
+  padding: 20px 50px
 }
 
 .bg-center,
@@ -95,15 +90,15 @@ a:hover {
   -webkit-background-size: auto !important;
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
-  background-size: auto !important;
+  background-size: auto !important
 }
 
 .bg-repeat {
-  background: repeat;
+  background: repeat
 }
 
 .bg-t-edge {
-  background: top no-repeat;
+  background: top no-repeat
 }
 
 .bloc-bg-texture::before {
@@ -113,24 +108,24 @@ a:hover {
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
+  background: url(img/texture-paper.png);
+  background-size: 280px 280px
 }
 
 .b-parallax {
-  background-attachment: fixed;
+  background-attachment: fixed
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, .9)
 }
 
 .d-bloc button:hover {
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .9)
 }
 
 .d-bloc .icon-round,
@@ -138,14 +133,13 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-  border-color: rgba(255, 255, 255, .9);
+  border-color: rgba(255, 255, 255, .9)
 }
 
 .d-bloc .divider-h span {
-  border-color: rgba(255, 255, 255, .2);
+  border-color: rgba(255, 255, 255, .2)
 }
 
-/* color to be modidfied */
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -160,10 +154,9 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: var(--color-btn);
+  color: var(--color-btn)
 }
 
-/* color to be modidfied */
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -178,16 +171,15 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1)
 }
 
-/* added styles */
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl {
   border-radius: 50%;
-  padding: 1rem;
+  padding: 1rem
 }
 
 .d-bloc a:hover .icon-sm,
@@ -195,7 +187,7 @@ a:hover {
 .d-bloc a:hover .icon-xl {
   text-align: center;
   padding: 1rem;
-  transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out
 }
 
 .d-bloc a:focus .icon-sm,
@@ -204,59 +196,57 @@ a:hover {
 .d-bloc a:focus .icon-xl {
   border-radius: 50%;
   padding: 1rem;
-  transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out
 }
 
-/* end */
-
 .d-bloc .navbar-toggle .icon-bar {
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1)
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
   color: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1)
 }
 
 .d-bloc .panel {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .5)
 }
 
 .d-bloc .panel button:hover {
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, .7)
 }
 
 .d-bloc .panel icon {
-  border-color: rgba(139, 135, 135, 0.7);
+  border-color: rgba(139, 135, 135, .7)
 }
 
 .d-bloc .panel .divider-h span {
-  border-color: rgba(0, 0, 0, .1);
+  border-color: rgba(0, 0, 0, .1)
 }
 
 .d-bloc .panel .a-btn {
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, .6)
 }
 
 .d-bloc .panel .a-btn:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1)
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
   color: rgba(0, 0, 0, .7);
-  border-color: rgba(0, 0, 0, .3);
+  border-color: rgba(0, 0, 0, .3)
 }
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .5)
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, .7)
 }
 
 .l-bloc .icon-round,
@@ -264,12 +254,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-  border-color: rgba(0, 0, 0, .7);
+  border-color: rgba(0, 0, 0, .7)
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-  border-color: rgba(0, 0, 0, .1);
+  border-color: rgba(0, 0, 0, .1)
 }
 
 .d-bloc .panel .a-btn,
@@ -287,7 +277,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, .6)
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -305,11 +295,11 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1)
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, .6)
 }
 
 .d-bloc .panel .btn-wire,
@@ -317,45 +307,44 @@ a:hover {
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
   color: rgba(0, 0, 0, .7);
-  border-color: rgba(0, 0, 0, .3);
+  border-color: rgba(0, 0, 0, .3)
 }
 
 .voffset {
-  margin-top: 30px;
+  margin-top: 30px
 }
 
 .voffset-lg {
-  margin-top: 80px;
+  margin-top: 80px
 }
 
 .row-no-gutters {
   margin-right: 0;
-  margin-left: 0;
+  margin-left: 0
 }
 
 .row.row-no-gutters>[class^="col-"],
 .row.row-no-gutters>[class*=" col-"] {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 0
 }
 
-/* header h1 */
 #bloc-1-hero h1 {
-  font-size: 40px;
+  font-size: 40px
 }
 
 .navbar {
   margin-bottom: 0;
-  z-index: 1;
+  z-index: 1
 }
 
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 400;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 44px
 }
 
 .navbar-brand img {
@@ -363,137 +352,133 @@ a:hover {
   margin: 0 5px 0 0;
   display: inline;
   display: inline-block;
-  height: 1.8em;
+  height: 1.8em
 }
 
 .navbar-brand img[src$=svg] {
-  min-width: 100px;
+  min-width: 100px
 }
 
 .nav-center .navbar-brand img {
-  margin: 0;
+  margin: 0
 }
 
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
   float: right;
-  z-index: 1;
+  z-index: 1
 }
 
-/* added css */
 .navbar-nav li {
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px #fff
 }
 
 .navbar-nav li:hover {
-  border-bottom: solid 2px;
+  border-bottom: solid 2px
 }
-
-/* end */
 
 .nav>li {
   float: left;
   margin-top: 4px;
-  font-size: 20px;
+  font-size: 20px
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
-  text-align: inherit;
+  text-align: inherit
 }
 
 .nav>li a:hover,
 .nav>li a:focus {
-  background: transparent;
+  background: transparent
 }
 
 .navbar-toggle {
   margin: 10px 10px 0 0;
-  border: 0px;
+  border: 0
 }
 
 .navbar-toggle:hover {
-  background: transparent !important;
+  background: transparent !important
 }
 
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, .5);
-  width: 26px;
+  width: 26px
 }
 
 .nav-invert .navbar .nav {
-  float: left;
+  float: left
 }
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
   float: right;
   position: relative;
-  z-index: 2;
+  z-index: 2
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .site-navigation {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%)
   }
 
-  /* color modified */
   .nav>li .dropdown-menu a,
   .nav>li .dropdown-menu a:hover {
-    color: #313030;
+    color: #313030
   }
 
   .nav-invert .site-navigation {
     left: 0;
-    right: 0;
+    right: 0
   }
 
   .nav-center {
-    text-align: center;
+    text-align: center
   }
 
   .nav-center .navbar-header {
-    width: 100%;
+    width: 100%
   }
 
   .nav-center .navbar-header,
   .nav-center .navbar-brand,
   .nav-center .nav>li {
     float: none;
-    display: inline-block;
+    display: inline-block
   }
 
   .nav-center .site-navigation {
     position: relative;
     width: 100%;
     right: 0;
-    margin-right: 0px;
-    margin-top: 20px;
+    margin-right: 0;
+    margin-top: 20px
   }
 
   .nav-center.mini-nav .navbar-toggle {
     float: none;
-    margin: 10px auto 0;
+    margin: 10px auto 0
   }
 }
 
 .nav>li>.dropdown a {
   background: none !important;
   display: block;
-  padding: 14px 15px;
+  padding: 14px 15px
 }
 
 nav .caret {
-  margin: 0 5px;
+  margin: 0 5px
 }
 
 .dropdown-menu .dropdown-menu {
   top: -8px;
-  left: 100%;
+  left: 100%
 }
 
 .dropdown-menu .dropmenu-flow-right {
@@ -501,53 +486,50 @@ nav .caret {
   left: 0;
   margin-left: -1px;
   border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-right-radius: 0
 }
 
 .dropdown-menu .dropdown span {
-  border: 4px solid black;
+  border: 4px solid #000;
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
   margin: 6px -5px 0 0 !important;
-  float: right;
+  float: right
 }
 
 .mg-md {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
 .mg-lg {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 40px
 }
 
 .btn {
-  margin: 0 5px 5px 0;
+  margin: 0 5px 5px 0
 }
 
 .btn.pull-right {
-  margin: 0 0 5px 5px;
+  margin: 0 0 5px 5px
 }
 
 .btn-d {
   color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, .3)
 }
 
 button {
-  outline: none !important;
+  outline: none !important
 }
 
-
-/* modif */
 .explain {
   font-size: 20px;
   margin: auto;
-  text-align: center;
+  text-align: center
 }
-
 
 .quote {
   display: block;
@@ -556,57 +538,54 @@ button {
   font-size: 20px;
   font-style: italic;
   width: 95%;
-  color: #313030;
+  color: #313030
 }
-
-/* modif end */
 
 .btn-rd {
-  border-radius: 40px;
+  border-radius: 40px
 }
-
 
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, .08);
   border-bottom-color: rgba(0, 0, 0, .1);
   text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-  box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15)
 }
 
 .icon-md {
   font-size: 30px !important;
-  width: 50px;
+  width: 50px
 }
 
 .icon-lg {
-  font-size: 60px !important;
+  font-size: 60px !important
 }
 
 .sm-shadow {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .3)
 }
 
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
-  border-radius: 0;
+  border-radius: 0
 }
 
 .panel-rd {
-  border-radius: 30px;
+  border-radius: 30px
 }
 
 .panel-rd .panel-heading {
-  border-radius: 29px 29px 0 0;
+  border-radius: 29px 29px 0 0
 }
 
 .panel-rd .panel-footer {
-  border-radius: 0 0 29px 29px;
+  border-radius: 0 0 29px 29px
 }
 
 .form-control {
   border-color: rgba(0, 0, 0, .1);
-  box-shadow: none;
+  box-shadow: none
 }
 
 .scrollToTop {
@@ -619,29 +598,27 @@ button {
   z-index: 500;
   transition: all 0.3s ease-in-out;
   background-color: var(--color-btn);
-  color: #fff !important;
-
+  color: #fff !important
 }
 
 .scrollToTop:focus {
   outline: none !important;
-  border: 1.5px solid #fff !important;
+  border: 1.5px solid #fff !important
 }
 
 .scrollToTop span {
-  margin-top: 6px;
+  margin-top: 6px
 }
 
 .showScrollTop {
   font-size: 14px;
-  opacity: 1;
+  opacity: 1
 }
 
-/* plus sign in nos realisation */
 a[data-lightbox] {
   position: relative;
   display: block;
-  text-align: center;
+  text-align: center
 }
 
 a[data-lightbox]:hover::before {
@@ -652,60 +629,58 @@ a[data-lightbox]:hover::before {
   height: 50px;
   margin-left: -25px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, .6);
   color: #fff;
   font-weight: 100;
   z-index: 1;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%)
 }
 
-
 a[data-lightbox]:hover img {
-  opacity: 0.6;
+  opacity: .6;
   -webkit-animation-fill-mode: none;
-  animation-fill-mode: none;
+  animation-fill-mode: none
 }
 
 a[data-lightbox]:focus img {
-  opacity: 0.6;
+  opacity: .6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
-  border: black solid 2px;
+  border: #000 solid 2px
 }
 
 a[data-lightbox] img {
   width: 100%;
-  height: 100%;
+  height: 100%
 }
 
 #lightbox-modal {
   display: flex;
-  align-items: center;
+  align-items: center
 }
 
 #lightbox-modal .modal-dialog {
   width: 90%;
   max-width: 900px;
-  margin: 0 auto 0;
+  margin: 0 auto 0
 }
 
 #lightbox-modal .modal-dialog img {
   max-height: 90vh;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .lightbox-caption {
   padding: 20px;
-  color: #ffffff;
+  color: #fff;
   background: rgba(0, 0, 0, .5);
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
-
+  bottom: 5px
 }
 
 .close-lightbox {
@@ -719,15 +694,15 @@ a[data-lightbox] img {
   border: none;
   line-height: 30px;
   padding: 4px 9px;
-  opacity: 0.5;
-  border-radius: 5px;
+  opacity: .5;
+  border-radius: 5px
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
   opacity: 1;
-  color: #FFF !important;
+  color: #FFF !important
 }
 
 .next-lightbox,
@@ -740,27 +715,27 @@ a[data-lightbox] img {
   border-radius: 5px;
   top: 45%;
   z-index: 1;
-  opacity: 0.6;
+  opacity: .6
 }
 
 .next-lightbox {
   padding: 5px 8px 1px 13px;
-  right: 25px;
+  right: 25px
 }
 
 .prev-lightbox {
   padding: 5px 13px 1px 10px;
-  left: 25px;
+  left: 25px
 }
 
 .snapshot-lb .modal-body {
-  padding-bottom: 45px;
+  padding-bottom: 45px
 }
 
 .snapshot-lb .lightbox-caption {
   padding: 0;
   color: rgba(0, 0, 0, .5);
-  background: none;
+  background: none
 }
 
 h1,
@@ -774,17 +749,15 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #303130 !important;
+  color: #303130 !important
 }
 
-
-
 .hero-bloc-text {
-  font-size: 35px;
+  font-size: 35px
 }
 
 .hero-bloc-text-sub {
-  font-size: 33px;
+  font-size: 33px
 }
 
 .statement-bloc-text {
@@ -794,23 +767,21 @@ a {
   text-align: center;
   font-weight: lighter;
   max-width: 520px;
-  margin: auto auto auto auto;
+  margin: auto auto auto auto
 }
 
-/* nos ojective p */
 p {
-  font-size: 18px;
+  font-size: 18px
 }
 
 .tight-width-whitespace {
   max-width: 700px;
-  margin: auto auto auto auto;
-
+  margin: auto auto auto auto
 }
 
 .h1 {
   font-size: 25px;
-  font-family: "Open Sans";
+  font-family: "Open Sans"
 }
 
 .cta-hero {
@@ -819,137 +790,125 @@ p {
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 700
 }
-
 
 .social {
   max-width: 600px;
   margin: auto auto auto auto;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 20px
 }
 
 .social a {
   color: #fff !important;
   align-items: baseline;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .social a:hover {
-  color: var(--color-btn) !important;
+  color: var(--color-btn) !important
 }
-
 
 h2 {
   font-size: 30px;
-  line-height: 1.4em;
+  line-height: 1.4em
 }
 
 h3 {
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 700
 }
 
 .med-width-whitespace {
   max-width: 1050px;
   margin: auto auto auto auto;
-  box-shadow: 0px 0px 0px #000000;
+  box-shadow: 0 0 0 #000
 }
-
-
 
 .icons {
   margin-bottom: 14px;
-  margin-top: 50px;
+  margin-top: 50px
 }
 
 .white {
-  color: #FFFFFF !important;
+  color: #FFFFFF !important
 }
 
 .portfolio-row .portfolio-thumb {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
 }
 
 .portfolio-thumb {
-  margin-bottom: 24px;
+  margin-bottom: 24px
 }
 
 .portfolio-row {
   margin-bottom: 44px;
-  margin-top: 50px;
+  margin-top: 50px
 }
 
 .avatar {
-  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 9px rgba(0, 0, 0, .3)
 }
 
-
-/* Notre objectif background*/
 .black-background {
   background-color: var(--color-blog);
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 40px 40px
 }
 
 .bold-link {
   font-weight: 900;
-  text-decoration: underline !important;
+  text-decoration: underline !important
 }
 
 .bgc-dark-slate-blue .bgc-white {
-  background-color: #FFFFFF;
+  background-color: #FFF
 }
 
 .bgc-dark-slate-blue {
-  background-color: var(--color-blog);
+  background-color: var(--color-blog)
 }
 
-/* footer */
 .bgc-atomic-tangerine {
-  background-color: var(--color-footer);
+  background-color: var(--color-footer)
 }
 
 .tc-white {
-  color: var(--color-btn) !important;
+  color: var(--color-btn) !important
 }
 
-/* pret pour dooner vie color modifie  */
 .tc-image {
-  color: #ffffff !important;
+  color: #ffffff !important
 }
 
 #main h1 {
-  color: #ffffff !important;
-
+  color: #ffffff !important
 }
 
-/* header contact */
 .bgc-atomic-tangerine--color {
   background-color: var(--color-blog)
 }
 
 .container h1,
 .header {
-  color: var(--color-btn) !important;
+  color: var(--color-btn) !important
 }
 
-/* contact btn */
 .btn-atomic-tangerine {
   background: var(--color-btn);
-  color: #fff !important;
+  color: #fff !important
 }
 
 .btn-atomic-tangerine:hover {
   background: var(--color-subtext) !important;
-  color: #FFFFFF !important;
+  color: #FFFFFF !important
 }
 
-/* bloc Notre objectif */
 #bloc-1-hero {
-  min-height: 476.033px;
+  min-height: 476.033px
 }
 
 .ltc-white {
@@ -957,60 +916,49 @@ h3 {
   color: #ffffff !important;
   font-size: 1.5rem;
   padding: 2rem;
-  margin-top: 3rem;
-
+  margin-top: 3rem
 }
 
 .ltc-white:hover {
-  color: #f4fcfc !important;
+  color: #f4fcfc !important
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C !important;
+  color: #F3976C !important
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #c27956 !important
 }
 
 .icon-dark-slate-blue {
   color: #364577 !important;
-  border-color: #364577 !important;
+  border-color: #364577 !important
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url(img/dots-bg.png)
 }
 
-/* nos realisation background */
-/* .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-} */
-
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url(img/la-chouette-agence-banniere.jpg)
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.jpg");
+  background-image: url(img/image-de-presentation.jpg)
 }
 
-/* page icon */
-/* image resize */
 .image-resize-mode {
   width: 130px;
-  height: 130px;
+  height: 130px
 }
 
-
-/* partners */
 .partners h3 {
   color: #fff !important;
   font-size: 17px !important;
   position: relative;
   padding-bottom: 10px;
-  padding-left: 0 !important;
-
+  padding-left: 0 !important
 }
 
 .partners h3::before {
@@ -1019,11 +967,9 @@ h3 {
   background-color: var(--color-btn);
   width: 30%;
   height: 3px;
-  bottom: -0px;
-  left: 0;
+  bottom: 0;
+  left: 0
 }
-
-
 
 .partners ul {
   word-wrap: break-word;
@@ -1031,45 +977,39 @@ h3 {
   list-style-type: none;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0
 }
 
 .partners ul li {
   list-style: none !important;
   font-size: 16px;
-  padding: 6px 0;
+  padding: 6px 0
 }
 
 .partners ul li a {
-  color: #fff !important;
+  color: #fff !important
 }
 
 .partners ul li a:hover {
-  color: var(--color-btn) !important;
+  color: var(--color-btn) !important
 }
 
-
-/* form */
 #form_1 {
-  font-size: 16px;
+  font-size: 16px
 }
 
 #form_1 input,
 #form_1 textarea {
-  border: 1px solid var(--color-footer);
+  border: 1px solid var(--color-footer)
 }
 
 #form_1 input:focus,
 #form_1 textarea:focus {
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(102, 175, 233, 0.6);
-  border: gray dashed 1px !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .01), 0 0 8px rgba(102, 175, 233, .6);
+  border: gray dashed 1px !important
 }
-
-/* *:focus {
-  border: gray dashed 1px !important;
-} */
 
 .container h2 {
   font-size: 25px
@@ -1079,11 +1019,10 @@ h3 {
   font-size: 15px
 }
 
-
-@media (max-width: 1024px) {
+@media (max-width:1024px) {
   .bloc {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px
   }
 
   .bloc.full-width-bloc,
@@ -1091,11 +1030,11 @@ h3 {
   .bloc-tile-3.full-width-bloc .container,
   .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
   }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width:992px) and (min-width:768px) {
   .navbar .nav {
     max-width: 80%
   }
@@ -1105,63 +1044,61 @@ h3 {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
   .b-parallax {
-    background-attachment: scroll;
+    background-attachment: scroll
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
   .b-parallax {
-    background-attachment: scroll;
+    background-attachment: scroll
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width:991px) {
   .container {
-    width: 100%;
-
+    width: 100%
   }
 
   .black-background {
-    padding: 10px 0;
+    padding: 10px 0
   }
 
   .explain {
-    width: 100%;
+    width: 100%
   }
 
   .b-parallax {
-    background-attachment: scroll;
+    background-attachment: scroll
   }
 
   .page-container,
   #hero-bloc {
     overflow-x: hidden;
-    position: relative;
+    position: relative
   }
 
   .bloc-group,
   .bloc-group .bloc {
     display: block;
-    width: 100%;
+    width: 100%
   }
 
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-
+    padding: 0 20px
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
   .page-container {
     overflow-x: hidden;
-    position: relative;
+    position: relative
   }
 
   #bloc-1-hero h1 {
-    font-size: 30px;
+    font-size: 30px
   }
 
   h1,
@@ -1173,29 +1110,29 @@ h3 {
   p,
   #disqus_thread {
     padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-right: 10px !important
   }
 
   .b-parallax {
-    background-attachment: scroll;
+    background-attachment: scroll
   }
 
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none !important;
+    float: none !important
   }
 
   .navbar.row {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0
   }
 
   .site-navigation {
     position: inherit;
     transform: none;
     -webkit-transform: none;
-    -ms-transform: none;
+    -ms-transform: none
   }
 
   .nav>li {
@@ -1204,32 +1141,32 @@ h3 {
     background: rgba(0, 0, 0, .05);
     text-align: left;
     padding-left: 15px;
-    width: 100%;
+    width: 100%
   }
 
   .nav>li:hover {
-    background: rgba(0, 0, 0, .08);
+    background: rgba(0, 0, 0, .08)
   }
 
   .dropdown .dropdown a .caret {
     float: none;
     margin: 5px 0 0 10px !important;
-    border: 4px solid black;
+    border: 4px solid #000;
     border-bottom-color: transparent;
     border-right-color: transparent;
-    border-left-color: transparent;
+    border-left-color: transparent
   }
 
   #hero-bloc .navbar .nav {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, .8)
   }
 
   #hero-bloc .navbar .nav a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .6)
   }
 
   .hero {
-    padding: 50px 0;
+    padding: 50px 0
   }
 
   .col-sm-4 {
@@ -1238,47 +1175,47 @@ h3 {
 
   .hero-nav {
     left: -1px;
-    right: -1px;
+    right: -1px
   }
 
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow: none
   }
 
   .navbar-brand img {
     max-height: 40px;
     height: 36px;
-    width: 193px;
+    width: 193px
   }
 
   .nav-invert .navbar-header {
     float: none;
-    width: 100%;
+    width: 100%
   }
 
   .nav-invert .navbar-toggle {
     float: left;
-    margin-left: 10px;
+    margin-left: 10px
   }
 
   .bloc {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
   }
 
   .bloc-xxl,
   .bloc-xl,
   .bloc-lg {
-    padding: 40px 0;
+    padding: 40px 0
   }
 
   .bloc-sm,
   .bloc-md {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
   }
 
   .bloc-tile-2 .container,
@@ -1287,119 +1224,115 @@ h3 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
   }
 
   .a-block {
-    padding: 0 10px;
+    padding: 0 10px
   }
 
   .btn-dwn {
-    display: none;
+    display: none
   }
 
   .voffset {
-    margin-top: 5px;
+    margin-top: 5px
   }
 
   .voffset-md {
-    margin-top: 20px;
+    margin-top: 20px
   }
 
   .voffset-lg {
-    margin-top: 30px;
+    margin-top: 30px
   }
 
   .partners,
   .social {
     max-width: 600px;
     padding-left: 10px;
-    margin: auto auto auto auto !important;
+    margin: auto auto auto auto !important
   }
 
   .social a {
     display: flex;
     align-items: baseline;
-    gap: 1rem;
+    gap: 1rem
   }
-
 
   .container h1 {
     font-size: 25px
   }
 
   .container h2 {
-    font-size: 20px !important;
+    font-size: 20px !important
   }
 
   h2 {
     font-size: 23px;
-    line-height: 1.4em;
+    line-height: 1.4em
   }
 
   h3 {
     font-size: 16px;
-    margin: 5px 0 5px;
+    margin: 5px 0 5px
   }
 
   .mg-md {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
   }
 
   .explain {
     font-size: 16px;
-    width: 80%;
+    width: 80%
   }
 
   p,
   .quote {
-    font-size: 16px;
+    font-size: 16px
   }
 
-
   form {
-    padding: 5px 10px;
+    padding: 5px 10px
   }
 
   .close-lightbox {
-    display: inline-block;
+    display: inline-block
   }
-
-
 
   .blocsapp-device-iphone5 {
     background-size: 216px 425px;
     padding-top: 60px;
     width: 216px;
-    height: 425px;
+    height: 425px
   }
 
   .blocsapp-device-iphone5 img {
     width: 180px;
-    height: 320px;
+    height: 320px
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width:400px) {
   .bloc {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
   }
 
   .navbar-brand img {
     height: 30px;
-    width: 150px;
+    width: 150px
   }
 
   .image-resize-mode {
     width: 100px;
-    height: 100px;
+    height: 100px
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
   .bloc-mob-center-text {
-    text-align: center;
+    text-align: center
   }
 }
